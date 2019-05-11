@@ -8,7 +8,7 @@
 	# Move the file <element name>.gtf into the dirctory <element name>_gtf
 #The script will repeat this for all elements in chrom (AKA all unique occurences that happen in the 1st collumn of <filename>.gtf) 
 
-
+# Very nice !!!!!!!!
 chrom=$(cut -f 1 $1 | uniq)
 for i in ${chrom[@]}
 do
